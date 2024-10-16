@@ -1,0 +1,17 @@
+{
+    "name": "Huly",
+    "id": "huly",
+    "available": true,
+    "short_desc": "Everything App for your teams",
+    "author": "huly.io",
+    "port": 8686,
+    "categories": ["utilities"],
+    "description": "Huly, an open-source platform, serves as an all-in-one replacement of Linear, Jira, Slack, and Notion.",
+    "tipi_version": 1,
+    "version": "v0.6.313",
+    "source": "https://github.com/hcengineering/platform",
+    "exposable": true,
+    "supported_architectures": ["amd64"],
+    "created_at": 1729112959000,
+    "updated_at": 1729112959000
+  }

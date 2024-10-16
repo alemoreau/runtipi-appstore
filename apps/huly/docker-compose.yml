@@ -80,7 +80,7 @@ services:
       traefik.http.routers.huly-rekoni-local.rule: Host(`huly.${LOCAL_DOMAIN}`) && PathPrefix(`/rekoni`)
       traefik.http.routers.huly-rekoni-local.entrypoints: websecure
       traefik.http.routers.huly-rekoni-local.service: huly-rekoni
-      traefik.http.routers.huly-rekoni.middlewares: huly-rekoni-stripprefix
+      traefik.http.routers.huly-rekoni-local.middlewares: huly-rekoni-stripprefix
       traefik.http.routers.huly-rekoni-local.tls: true
 
       # - "traefik.enable=true"
@@ -220,7 +220,7 @@ services:
       traefik.http.routers.huly-account.rule: Host(`${APP_DOMAIN}`) && PathPrefix(`/accounts`)
       traefik.http.routers.huly-account.entrypoints: websecure
       traefik.http.routers.huly-account.service: huly-account
-      traefik.http.routers.huly-account-insecure.middlewares: huly-account-stripprefix
+      traefik.http.routers.huly-account.middlewares: huly-account-stripprefix
 
       traefik.http.routers.huly-account.tls.certresolver: myresolver
       # Local domain

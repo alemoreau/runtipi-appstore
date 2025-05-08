@@ -65,3 +65,4 @@ services:
       traefik.http.routers.hmdm-local.entrypoints: websecure
       traefik.http.routers.hmdm-local.service: hmdm
       traefik.http.routers.hmdm-local.tls: true
+      runtipi.managed: true

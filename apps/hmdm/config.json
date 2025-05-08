@@ -76,6 +76,11 @@
       "type": "text",
       "label": "CLIENT_VERSION",
       "env_variable": "CLIENT_VERSION"
+    },
+    {
+      "type": "ip",
+      "label": "LOCAL_IP",
+      "env_variable": "LOCAL_IP"
     }
   ]
 }
